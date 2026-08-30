@@ -7,6 +7,7 @@ app = Flask(__name__)
 def hello_world():
     """Return a simple Hello World response."""
     print("Welcome to the homepage!")
+    print("User accessed the home page (Auth feature pending)")
     return "<h1>Hello, World!</h1><p>Welcome to the DevOps Lab Flask Application.</p>"
 
 
