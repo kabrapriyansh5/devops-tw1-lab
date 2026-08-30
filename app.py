@@ -6,6 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     """Return a simple Hello World response."""
+    print("User accessed the home page (Auth feature pending)")
     return "<h1>Hello, World!</h1><p>Welcome to the DevOps Lab Flask Application.</p>"
 
 
