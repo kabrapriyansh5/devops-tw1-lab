@@ -1,39 +1,17 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
+*.pyo
 
-# Virtual Environment
+# Virtual environments
 venv/
-env/
 .venv/
+env/
 
-# Distribution
-dist/
-build/
-*.egg-info/
-*.egg
-
-# IDE
+# IDE/editor
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Environment
-.env
-.env.local
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db
-
-# Byte-compiled
-*.pyc
-
-# Credentials / Secrets
-*.pem
-*.key
-credentials/
-tokens/
